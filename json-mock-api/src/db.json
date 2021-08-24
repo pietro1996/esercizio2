@@ -1,0 +1,39 @@
+{
+    "frutti": [
+    {
+    "id": 1,
+    "name": "Fragola deliziosa",
+    "qta": 250,
+    "prezzo": "3,35",
+    "imageSrc": "images/strawberry.png"
+    },
+    {
+    "id": 2,
+    "name": "Limone succoso",
+    "qta": 250,
+    "prezzo": "1,55",
+    "imageSrc": "images/lemon.png"
+    },
+    {
+    "id": 3,
+    "name": "Arancia rossa",
+    "qta": 250,
+    "prezzo": "1,25",
+    "imageSrc": "images/oranges.png"
+    },
+    {
+    "id": 4,
+    "name": "Ananas del Brasile",
+    "qta": 250,
+    "prezzo": "2,35",
+    "imageSrc": "images/pineapple.png"
+    },
+    {
+    "id": 5,
+    "name": "Ciliegia",
+    "qta": 250,
+    "prezzo": "2,35",
+    "imageSrc": "images/cherries.png"
+}
+]
+}
