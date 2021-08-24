@@ -1,0 +1,227 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
+
+#effettoZoom {
+  background-color: #FFFFFF;
+  transition: 0.5s;
+}
+#effettoZoom:hover {
+  transform: scale(1.02);
+  transition: 0.5s;  
+  -moz-box-shadow: -1.5px -1.5px 1.5 1.5px RGBA(0, 0, 0, 0.1);
+  -webkit-box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+  box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+
+}
+
+
+
+#buttonDelete{
+
+    background-image: url(./delete.png);
+    background-color: transparent; 
+    background-repeat: no-repeat;  
+    background-position: 0px 0px;  
+    border: none;          
+    cursor: pointer;       
+    height: 34px;
+    padding-left: 34px;    
+    vertical-align: middle;
+    transition: 0.5s;
+}
+
+
+
+
+#buttonAggiungi{
+  position: relative;
+  left: 1070px;
+  bottom:60px;  
+  background-image: url(./plus.png),linear-gradient(to right, #F7EB7A 0%, #F3CA1C  100%);
+  background-color: #F3CA1C ;
+  background-repeat: no-repeat;  
+  background-position: 100px 2px, 0px 0px; 
+  border: none;          
+  cursor: pointer;       
+  height: 40px;
+  width: 130px;
+  text-align: left;          
+  padding-left: 34px;    
+  vertical-align: middle; 
+  border-radius: 20px;
+  transition: 0.5s;
+  
+}
+
+#buttonAggiungi:hover {
+  transform: scale(1.02);
+  transition: 0.5s;  
+  -moz-box-shadow: -1.5px -1.5px 1.5 1.5px RGBA(0, 0, 0, 0.1);
+  -webkit-box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+  box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+
+}
+
+
+         
+          
+         
+
+
+#buttonChiudi{
+  position: relative;
+  left: 1070px;
+  bottom:60px;
+  background-image: url(./close.png);
+  background-color: transparent; 
+  background-repeat: no-repeat;  
+  background-position: 90px; 
+  border: 2px solid  #F3CA1C;  
+  cursor: pointer;        
+  height: 40px;
+  width: 130px;
+  text-align: left; 
+  padding-left: 34px;     
+  vertical-align: middle;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#buttonChiudi:hover {
+  transform: scale(1.02);
+  transition: 0.5s;  
+  -moz-box-shadow: -1.5px -1.5px 1.5 1.5px RGBA(0, 0, 0, 0.1);
+  -webkit-box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+  box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+
+}
+
+#buttonConferma{
+  position: relative;
+  left: 300px;  
+  background-image: linear-gradient(to right,#7AF7A8 0%, #36D46F 100%);
+  background-color: #36D46F;
+  background-repeat: no-repeat;
+  border:none;        
+  cursor: pointer;       
+  height: 40px;
+  width: 130px;
+  text-align: left; 
+  padding-left: 34px;     
+  vertical-align: middle; 
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#buttonConferma:hover {
+  transform: scale(1.02);
+  transition: 0.5s;  
+  -moz-box-shadow: -1.5px -1.5px 1.5 1.5px RGBA(0, 0, 0, 0.1);
+  -webkit-box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+  box-shadow: -1.5px -1.5px 1.5px 1.5px RGBA(0, 0, 0, 0.1);
+
+}
+
+#formShop
+{
+  bottom: 20px;
+  height:110px;
+  position: relative;
+  background-color: transparent;
+  border:none;
+  border-bottom: #6A8592;
+  border-bottom-style: dotted;
+}
+
+#imgFrutta{
+  position: relative;
+  left: 50px;
+  top: 20px;
+  
+  
+}
+
+#input1{
+  position: relative;
+  margin-left: 2px;
+  margin-right: 2px;
+  width: 440px;
+  height: 40px;
+  left: 80px;
+  border:none;
+  border-radius: 20px;
+  background-color: #CED9DE;
+  outline: none;
+  box-shadow: none;
+  
+}
+
+#input2{
+  position: relative; 
+  margin-left: 2px;
+  margin-right: 2px;
+  left: 90px;
+  width: 120px;
+  height: 40px;
+  border:none;
+  border-radius: 20px;
+  background-color: #CED9DE;
+  text-decoration: initial;
+  outline: none;
+  box-shadow: none; 
+  text-align:center; 
+}
+
+#input3{
+  position: relative;
+  margin-left: 2px;
+  margin-right: 2px;
+  left: 100px;
+  width: 120px;
+  height: 40px;
+  border:none;
+  border-radius: 20px;
+  background-color:#CED9DE;
+  outline: none;
+  box-shadow: none;
+  text-align:center; 
+}
+#container{
+  position: relative;
+}
+#todo-list {
+  position: relative;
+  top: 100px;
+  width:1200px;
+  height: auto;
+  margin: auto;
+}
+
+
+
+.Disponibile{
+  background-image: linear-gradient(to right, #7AF7A8 0%, #36D46F 100%);
+  border:none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.Esaurito{
+  background-image: linear-gradient(to right, #F77A7A 0%, #D43636 100%);
+  border:none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  
+}
+
+body{
+  background-image: url("bg-fruit-shop.png"); 
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+  background-size: 100% 100% ;  
+}
