@@ -6,8 +6,7 @@
 
 ### 1)`cd json-mock-api`
 ### 2)`npm install json-server --save`
-### 3)`npm install json-server --save`
-### 4)`json-server --watch src/db.json`
+### 3)`json-server --watch src/db.json`
 
 
 ## Avviare App
